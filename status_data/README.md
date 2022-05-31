@@ -1,5 +1,6 @@
-# Satus data
+# Status data
 <div align="left">
+    <p>DevOps_Bootcamp_Final_Project_Team_D</p>
     <img src="https://img.shields.io/badge/AmazonAWS-F01F7A?style=flat-square&logo=AmazonAWS&logoColor=white"/>
     <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=Terraform&logoColor=white"/>
     <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=flat-square&logo=GitHub Actions&logoColor=white"/>
