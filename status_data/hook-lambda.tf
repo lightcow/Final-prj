@@ -16,7 +16,7 @@ resource "aws_lambda_function" "terrform-hook-lambda" {
  }
 data "archive_file" "hookzip" {
   type             = "zip"
-  source_dir      = "${path.module}/hooklambda"
+  source_dir      = "${path.module}/hooklambda-handler"
   output_file_mode = "0666"
   output_path      = "${path.module}/files/hooklambda.zip"
 }
