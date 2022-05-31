@@ -1,12 +1,24 @@
 # Satus data
-
-어쩌고저쩌고
+<div align="left">
+    <img src="https://img.shields.io/badge/AmazonAWS-F01F7A?style=flat-square&logo=AmazonAWS&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=Terraform&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=flat-square&logo=GitHub Actions&logoColor=white"/>
+    <img src="https://img.shields.io/badge/NodeJS-brightgreen?style=flat-square&logo=Node.js&logoColor=white"/>
+<p>드라이버의 상태(출발 및 도착)정보를 받아 소비자에게 전달하는 서비스입니다.</p>
+</div>
 
 # 파일 설명
 
- |Command|Description|
- |-|-|
- |main|dfdasfdasiojfdsoijoi|
+| Command | Description                                    |
+| ---------- | ---------------------------------------------- |
+| main |  전체 소스 코드의 네트워크 구현을 이해하기 위한 위한 tf 파일      |
+| apigatway-status-lambda |  게이트웨이와 status-lambda 를 연결하기 위한 tf 파일           |
+| dynamoDB |  dynamoDB 생성하기 위한 tf 파일           |
+| status-lambda |  상태 메세지를 dynamoDB로 보내기 위한 tf 파일                  |
+| status-lambda-iam | status-lambda 파일 사용을 위한 권한을 부여하는 tf 파일                  |
+| hook-lambda | 디스코드로 상태 메세지를 보내기 위한 tf 파일        |
+| hook-lambda-iam | hook-lambda 파일 사용을 위한 권한을 부여하는 tf 파일                 |
+
 
 
 
