@@ -23,8 +23,3 @@ data "archive_file" "zip" {
   output_file_mode = "0666"
   output_path      = "${path.module}/files/lambdadb.zip"
 }
- data "archive_file" "zip3" {
-  type        = "zip"
-  source_file = "${path.module}/lambdadb/status_handler.js"
-  output_path = "${path.module}/lambdadb/status.handler.zip"
-}
