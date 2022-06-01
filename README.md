@@ -27,9 +27,6 @@ The **Amazon Kinesis Client Library for Java** (Amazon KCL) enables Java develop
 
 
 
-<a href="https://terraform.io">
-    <img src=".github/terraform_logo.svg" alt="Terraform logo" title="Terraform" align="right" height="50" />
-</a>
 
 ## Terraform Provider for AWS
 
@@ -147,4 +144,4 @@ This project is licensed under the Codestates License
 ## Acknowledgments 
 
 * 마이크로서비스를 기준으로 디렉토리가 구성되어있습니다. 
-* 부처님 손바닥안에서 보는 것 처럼 고객이 화물차의 위치를 잘 알 수 있도록 서비스를 만들고자 프로젝트 이름을 Budaa Palm이라고 하였습니다. 
+* 부처님 손바닥안에서 보는 것 처럼 고객이 화물차의 위치를 잘 알 수 있도록 서비스를 만들고자 프로젝트 이름을 Budda Palm이라고 하였습니다. 
