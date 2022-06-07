@@ -14,7 +14,7 @@
    
 ## `방법 1. CLI 에서 구현`
 1. main.tf의 cloud - organization, name을 개인 terraform cloud 정보를 수정합니다.
-2. kinesis.tf의 133, 138줄 request-lambda.tf의 99줄에 AWS ID(ex : 123456789012)를 수정합니다.
+2. variables.tf의 72줄의 amazon_id를 수정합니다.
 3. (선택사항) opensearch.tf의 55, 56줄 master_user_name과 master_user_password를 수정합니다.   
    ( Default : `master_user_name : admin`, `master_user_password : Qwer1234` )   
    ( 수정시 request-handler.py의 12줄 Authorization값을 변경해 줘야 합니다. )   
@@ -29,7 +29,7 @@
 ## `방법 2. Github Action`
 1. Github - Repository - Settings - Secrets - Actions에 terraform cloud 토큰을 'TF_API_TOKEN'이름으로 넣어줍니다.
 2. main.tf의 cloud - organization, name을 개인 terraform cloud 정보를 수정합니다.
-3. kinesis.tf의 133, 138줄 request-lambda.tf의 99줄에 AWS ID(ex : 123456789012)를 수정합니다.
+3. variables.tf의 72줄의 amazon_id를 수정합니다.
 4. (선택사항) opensearch.tf의 55, 56줄 master_user_name과 master_user_password를 수정합니다.   
    ( Default : `master_user_name : admin`, `master_user_password : Qwer1234` )   
    ( 수정시 request-handler.py의 12줄 Authorization값을 변경해 줘야 합니다. )   
