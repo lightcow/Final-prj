@@ -64,7 +64,7 @@ terraform apply
 
 ![5](https://user-images.githubusercontent.com/67503900/171122306-07fd7b42-df30-432a-b1d0-b39e6e51a0df.JPG)
 
-## Cleanup
+## Clean up
 ```
 terraform destroy
 ```
