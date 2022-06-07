@@ -12,7 +12,7 @@
 
 | Command | Description                                    |
 | ---------- | ---------------------------------------------- |
-| main |  전체 소스 코드의 네트워크 구현을 이해하기 위한 위한 tf 파일      |
+| main |  terraform cloud를 사용하기 위한 tf 파일      |
 | apigatway-status-lambda |  게이트웨이와 status-lambda 를 연결하기 위한 tf 파일           |
 | dynamoDB |  dynamoDB 생성하기 위한 tf 파일           |
 | status-lambda |  상태 메세지를 dynamoDB로 보내기 위한 tf 파일                  |
