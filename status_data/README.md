@@ -13,15 +13,15 @@
 | Command | Description                                    |
 | ---------- | ---------------------------------------------- |
 | main |  terraform cloud를 사용하기 위한 tf 파일      |
-| apigatway-status-lambda |  게이트웨이와 status-lambda 를 연결하기 위한 tf 파일           |
-| dynamoDB |  dynamoDB 생성하기 위한 tf 파일           |
-| status-lambda |  상태 메세지를 dynamoDB로 보내기 위한 tf 파일                  |
-| status-lambda-iam | status-lambda 파일 사용을 위한 권한을 부여하는 tf 파일                  |
-| hook-lambda | 디스코드로 상태 메세지를 보내기 위한 tf 파일        |
-| hook-lambda-iam | hook-lambda 파일 사용을 위한 권한을 부여하는 tf 파일                 |
-
-
-
+| apigatway-status-lambda |  apigatway와 status-lambda 를 연결하기 위한 tf 파일           |
+| dynamoDB |  DynamoDB를 생성하기 위한 tf 파일           |
+| status-lambda |  상태 메세지를 dynamoDB로 보내기 위한 람다                 |
+| status-lambda-iam | status-lambda에서 DynamoDB를 접근하기 위한 IAM-ROLE 권한                   |
+| hook-lambda | DynamoDB 트리거를 통해 디스코드로 상태 메세지를 보내기 위한 람다       |
+| hook-lambda-iam | hook-lambda에서 DynamoDB를 접근하기 위한 IAM-ROLE 권한                 |
+| statuslambda-handler| satus-lambda에서 사용할 js 파일|
+| hooklambda-handler|hook-lambda에서 사용할 js파일과 모듈파일|
+| files| 람다js 자동배포를 위한 archive_file|
 
 # 사용한 라이브러리
 
@@ -64,3 +64,7 @@ terraform apply
 
 ![5](https://user-images.githubusercontent.com/67503900/171122306-07fd7b42-df30-432a-b1d0-b39e6e51a0df.JPG)
 
+## Cleanup
+```
+terraform destroy
+```
