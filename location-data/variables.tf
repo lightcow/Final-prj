@@ -66,3 +66,8 @@ variable "self_signed_certificate_subject" {
   type = string
   default = "/C=DE"
 }
+
+variable "amazon_id"{
+  type = string
+  default = "123456789012"
+}
