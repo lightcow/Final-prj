@@ -130,12 +130,12 @@ resource "aws_kinesis_firehose_delivery_stream" "firehose" {
     bucket_arn         = "arn:aws:s3:::olatte2-s3-bucket"
   }
   elasticsearch_configuration {
-    domain_arn = "arn:aws:es:ap-northeast-2:<AWS-ID>:domain/terraform-domain" # <AWS-ID> -> ex)123456789012
+    domain_arn = "arn:aws:es:ap-northeast-2:${var.amazon_id}:domain/terraform-domain"
     role_arn   = "${aws_iam_role.firehose_role.arn}"
     index_name = "location-index"
   }
   kinesis_source_configuration {
-    kinesis_stream_arn = "arn:aws:kinesis:ap-northeast-2:<AWS-ID>:stream/terraform-datastream" # <AWS-ID> -> ex)123456789012
+    kinesis_stream_arn = "arn:aws:kinesis:ap-northeast-2:${var.amazon_id}:stream/terraform-datastream"
     role_arn = "${aws_iam_role.firehose_role.arn}"
   }
   depends_on = [
