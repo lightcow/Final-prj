@@ -59,6 +59,8 @@ https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/getting-started-install.h
 
 마이크로서비스는 분산형 개발을 통해 팀의 역량과 일상적인 업무 능력을 향상시킵니다. 또한, 동시에 여러 마이크로서비스를 개발하는 것도 가능합니다. 다시 말해, 동일한 애플리케이션 개발에 더 많은 개발자들이 동시 참여할 수 있으므로 개발에 소요되는 시간을 단축할 수 있습니다.이 프로젝트에서는 데이터의 유형을 화물차의 status data와 화물차의 실시간 location data로 구분하여 마이크로서비스 작업을 진행하였습니다. 
 
+### /Location data - 해당 디렉토리  read me 참조
+### /Status data - 해당 디렉토리 read me 참조
 
 
 ## 테스트 
