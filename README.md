@@ -16,7 +16,7 @@ Infra As Code 구현을 위한 Terraform 작업환경이 갖추어 져야 합니
 1. **Install Terraform** &mdash; https://www.terraform.io/intro
 
 
-## Amazon Webservices / Api-gateway, Lambda, Kinesis, Opensearch Service, DynamoBD
+## Amazon Webservices / Api-gateway, Lambda, Kinesis, Opensearch Service, DynamoDB
 [![Build Status](https://travis-ci.org/awslabs/amazon-kinesis-client.svg?branch=master)](https://travis-ci.org/awslabs/amazon-kinesis-client)
 
 The **Amazon Kinesis Client Library for Java** (Amazon KCL) enables Java developers to easily consume and process data from [Amazon Kinesis][kinesis].
